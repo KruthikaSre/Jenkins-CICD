@@ -11,13 +11,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t jenkins-cicd-app .'
+                sh 'docker build -t jenkins-cicd-app .'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'docker run --rm jenkins-cicd-app npm test'
+                sh 'docker run --rm jenkins-cicd-app npm test'
             }
         }
 
