@@ -22,11 +22,13 @@ pipeline {
         }
 
         stage('Deploy') {
-            steps {
-                echo 'Application is ready for deployment!'
-            }
-        }
+    steps {
+        sh '''
+            docker rm -f my-cicd-app || true
+            docker run -d --name my-cicd-app -p 3000:3000 jenkins-cicd-app
+        '''
     }
+}
 
     post {
         success {
