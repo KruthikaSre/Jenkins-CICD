@@ -1,7 +1,5 @@
 pipeline {
 agent any
-
-```
 stages {
 
     stage('Checkout') {
@@ -41,6 +39,4 @@ post {
         echo 'CI/CD Pipeline failed!'
     }
 }
-```
-
 }
