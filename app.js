@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
 
             body {
                 font-family: Arial, sans-serif;
-                background: #FFFDD0
+                background: linear-gradient(135deg, #667eea, #764ba2);
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
@@ -84,7 +84,7 @@ const server = http.createServer((req, res) => {
         <div class="card">
             <div class="badge">⚡ Powered by Jenkins + Docker</div>
 
-            <h1>Welcome Aboard!</h1>
+            <h1>Welcome Aboard! Kruthika</h1>
 
             <p>
                 Building, testing and deploying applications
