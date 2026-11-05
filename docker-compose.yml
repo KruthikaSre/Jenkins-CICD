@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: my-cicd-app
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
