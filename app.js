@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
             .badge {
                 display: inline-block;
                 background: #e8eaff;
-                color: #5b5bd6;
+                color: #9e9ee6;
                 padding: 9px 16px;
                 border-radius: 20px;
                 font-size: 13px;
