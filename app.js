@@ -84,7 +84,7 @@ const server = http.createServer((req, res) => {
         <div class="card">
             <div class="badge">⚡ Powered by Jenkins + Docker</div>
 
-            <h1>Welcome Aboard! Kruthika</h1>
+            <h1>Welcome Aboard! Kruthika Sre</h1>
 
             <p>
                 Building, testing and deploying applications
