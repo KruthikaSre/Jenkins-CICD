@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
 
             body {
                 font-family: Arial, sans-serif;
-                background: #FFFDD0;
+                background: #b3eff3;
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
